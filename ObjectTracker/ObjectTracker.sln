@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectTracker", "ObjectTracker\ObjectTracker.csproj", "{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Debug|x64.Build.0 = Debug|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Release|iPhone.Build.0 = Release|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Release|x64.ActiveCfg = Release|Any CPU
+		{F4E09743-C8F3-4ECC-9FA1-7153A59DE12F}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
