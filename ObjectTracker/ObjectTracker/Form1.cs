@@ -81,7 +81,7 @@ namespace ObjectTracker
                 // only proceed if at least one contour was found
                 if (contours.Size > 0)
                 {
-
+                    TrackMultipleSingleObjects_WithMemory(trackingFrame, contours);
                     TrackMultipleSingleObjects_NoMemory(trackingFrame, contours);
                     //TrackSingleLargestContour(trackingFrame, contours);
                 }
@@ -97,6 +97,27 @@ namespace ObjectTracker
                 //imageboxMask.Image = null;
                 //imageboxTracking.Image = null;
             }
+        }
+
+        private void TrackMultipleSingleObjects_WithMemory(Mat trackingFrame, VectorOfVectorOfPoint contours)
+        {
+            // Get bounding rectangles for all contours, and extract the Mat from rects
+            //      Mat src;//Source image load here
+            //      Rect R(topLeft, bottomRight); //Create a rect 
+            //      Mat ROI = src(R) //Crop the region of interest using above rect
+
+            //      Rect roi = new Rect(40, 100, 100, 120);
+            //      Mat cropped = new Mat(mat, roi);
+
+            // Get cirlces and centers and do inside calculations?
+
+            // Compare exiting contours (objs) to the new ones
+
+            // If matched, (feature box should also roughly match the bounding box) do tracking logic (trail points)
+
+            // If not matched, update people count and such
+            
+            // Update and add tracking objects with new images and coordinates and such
         }
 
         private void TrackMultipleSingleObjects_NoMemory(Mat trackingFrame, VectorOfVectorOfPoint contours)
@@ -284,6 +305,8 @@ namespace ObjectTracker
 
             public List<Point> TrackingPoints { get; } = new List<Point>();
             public Queue<Point> TrailPoints { get; } = new Queue<Point>(_buffer);
+
+            public Rectangle BoundingRectangle { get; set; }
             public Point FrameCenter { get; set; }
             public int FrameRadius { get; set; }
 
