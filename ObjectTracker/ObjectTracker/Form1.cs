@@ -26,6 +26,7 @@ namespace ObjectTracker
             //string captureSource = @"C:\Users\zumberc\Documents\Python Scripts\object_tracking_example.mp4"; // or live capture
             //string captureSource = @"C:\Users\zumberc\Documents\Python Scripts\Video.MOV";
             string captureSource = @"Video.MOV";
+            //string captureSource = @"MoreTea.MOV";
 
             try
             {

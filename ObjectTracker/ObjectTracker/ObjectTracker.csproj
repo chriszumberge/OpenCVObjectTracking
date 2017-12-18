@@ -95,6 +95,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MoreTea.MOV">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Video.MOV">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
